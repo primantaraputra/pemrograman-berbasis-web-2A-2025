@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <nav class="flex justify-between items-center p-6 bg-white shadow-md">
+        <div class="text-2xl font-bold">Portofolio Aku</div>
+        <ul class="flex gap-6">
+            <li><a href="#about" class="hover:text-blue-500">about</a></li>
+            <li><a href="#berkas" class="hover:text-blue-500">berkas</a></li>
+            <li><a href="#kontak" class="hover:text-blue-500">kontak</a></li>
+        </ul>
+    </nav>
+    <section class="flex flex-col md:flex-row items-center justify-center p-12 bg-blue-100 pt-20 pb-20">
+        <img src="FOTO FORMAL.jpg" alt="Foto Profil" class="w-45 h-48 rounded-full shadow-lg mb-6 md:mb-0 md:mr-12">
+        <div class="text-center md:text-left">
+            <h1 class="text-4xl font-bold mb-2">HALOOOO!!!! Saya, Dian Wildam Primantara Putra</h1>
+            <p class="text-xl mb-4">Mahasiswa Universitas Trunojoyo Madura, Prodi Sistem Informasi</p>
+            <a href="#kontak" class="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-300">Hubungi saya</a>
+        </div>
+    </section>
+    <section id="about" class="p-12 bg-white">
+        <h2 class="text-3xl font-bold text-center mb-6">Tentang saya</h2>
+        <p class="max-w-2xl mx-auto text-center text-gray-700 leading-relaxed">Aku dian, skill ga ada, pengalaman dikit</p>
+    </section>
+    <section id="berkas" class="p-12 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-6">Berkas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="cv.jpg" alt="vc" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold mb-2">Cv akuu</h3>
+                <p class="text-gray-600 mb-4">Ini adalah cv (Curiticulum vitae) yang isinya ada profil lengkap saya, riwayat pendidikan, keahlian, pengalaman, dan penghargaan.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="sertif1.jpg" alt="vc" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold mb-2">Sertifikat penghargaan pkl</h3>
+                <p class="text-gray-600 mb-4">Saya memperoleh Sertifikat Praktik Kerja Lapangan (PKL) saat menempuh pendidikan di SMK jurusan Teknik Komputer dan Jaringan (TKJ). Selama masa PKL, saya menjalani magang di Telkom Pamekasan dan berhasil meraih penghargaan sebagai Peserta Terbaik PKL di jurusan TKJ berkat dedikasi, kedisiplinan, dan kinerja yang konsisten selama pelaksanaan magang.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="sertif2.jpg" alt="vc" class="rounded-md mb-4">
+                <h3 class="text-xl font-semibold mb-2">Sertifikat penghargaan lulus</h3>
+                <p class="text-gray-600 mb-4">Saya menerima Sertifikat Penghargaan Kelulusan sebagai Siswa Lulusan Terbaik di Bidang Akademik saat menyelesaikan pendidikan di SMK jurusan Teknik Komputer dan Jaringan (TKJ). Penghargaan ini diberikan sebagai bentuk apresiasi atas pencapaian akademik tertinggi dan konsistensi prestasi belajar selama masa studi.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="kontak" class="p-12 bg-white">
+        <h2 class="text-3xl font-bold text-center">Kontak Saya</h2>
+        <form class="max-w-xl mx-auto flex flex-col gap-4">
+            <input type="text" placeholder="Nama" class="border p-3 rounded-md">
+            <input type="email" placeholder="Email" class="border p-3 rounded-md">
+            <textarea placeholder="Pesan" rows="5" class="border p-3 rounded-md"></textarea>
+            <button class="bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600">Kirim</button>
+        </form>
+    </section>
+    <footer class="bg-gray-800 text-white text-center p-6 mt-12">
+        &copy; 2025 @primantaraputra | i hope, deserve better
+    </footer>
+</body>
+</html>
